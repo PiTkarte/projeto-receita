@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:antiquewhite;
+    font-family:cursive ;
+    text-align: center;
+    border: 7px double black;
+    margin: 30px;
+}
+
+.title {
+    background-color: lightskyblue;
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0px 0px;
+    margin: 5px 200px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+ul li {
+    color: darkmagenta;
+    padding: 10px 20px;
+    background: lightgray;
+    border-radius: 10px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+.subtitle {
+    background-color: lightskyblue;
+    color: blue;
+    border-radius: 10px;
+    margin: 5px 300px;
+    padding: 10px;
+}
+
+.imagem-bolo, .bolo-2, .bolo-3 {
+    width: 500px;
+    padding: 10px;
+}
+
+div {
+    text-align: center;
+    background: lightgray;
+    color: darkmagenta;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 20px;
+    margin: 10px 300px;
+}
+
+
+.in1, .in2, .in3, .in4 {
+    color: blue;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin: 5px 300px;
+    padding: 10px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    list-style: none;
+}
+
+ol li {
+    font-size: 16px;
+    color: darkmagenta;
+    padding: 20px;
+    background: lightgray;
+    border-radius: 10px;
+    margin: 5px 300px;
+}
+
+
+.lista {
+    color:darkmagenta;
+    text-align: right 50px;
+
+}
+
+
+.link1, .link2, .link3 {
+    color:darkmagenta;
+    text-decoration: none;
+} 
+
+
+.fim {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: blue;
+    border: 2px solid blue;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .title, .subtitle {
+        margin: 5px 50px;
+        padding: 8px;
+    }
+    .in1, .in2, .in3, .in4{
+        margin: 5px 50px;
+        padding: 8px;
+    }
+    ul li, ol li {
+        margin: 5px 20px;
+        font-size: 14px;
+    }
+    div {
+        margin: 5px 50px;
+        padding: 8px;
+    }
+
+    .imagem-bolo, .bolo-2, .bolo-3 {
+        margin: 5px 50px;
+        padding: 8px;
+        width: 300px;
+    }
+}
+
+
